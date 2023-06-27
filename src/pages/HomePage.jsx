@@ -22,6 +22,8 @@ const HomePage = () => {
                 console.log(e);
             });
     },[ownerId]);
+    //배열에 ownerId
+
     return (
         <>
             <h2>{ownerId}님의 방명록</h2>
